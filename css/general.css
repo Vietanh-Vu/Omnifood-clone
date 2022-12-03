@@ -69,6 +69,17 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  background-color: #fff;
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fae5d3;
+  border-radius: 10px;
+  width: 12px;
+}
+
 /*********************************/
 /* GENERAL REUSEABLE COMPONENTS */
 /*********************************/
